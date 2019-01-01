@@ -1,0 +1,14 @@
+When starting to run powershell scripts using ISE this is useful to run instead of changing the execution policy on the host:
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted
+
+Exception Handling:
+https://powershellexplained.com/2017-04-10-Powershell-exceptions-everything-you-ever-wanted-to-know/
+
+Comments:
+# Single line comment
+
+<#
+Multiple line
+comment
+#>
+
