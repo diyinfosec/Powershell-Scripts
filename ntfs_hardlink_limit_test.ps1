@@ -9,7 +9,7 @@
 #- This started with a question: How many NTFS attributes can a file have?
 #- An easy way to add NTFS attributes to a file is by adding hardlinks to it.  
 #- When I create a hardlink a $30 ($FILE_NAME) attribute gets added to the file's MFT record. 
-#- In the MFT, the Attribute ID field is 2 bytes = 16 bits = 2^16 = 
+#- In the MFT, the Attribute ID field is 2 bytes = 16 bits = 2^16 = 65536
 #- Technically I should be able to create 65536 hardlinks. 
 
 #- Result:
